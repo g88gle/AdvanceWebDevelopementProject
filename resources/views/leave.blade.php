@@ -8,8 +8,8 @@
 			{{Form::text('name', '', ['class' => 'form-control', 'placeholder' => 'Enter Name'])}}
 		</div>
 		<div class="form-group">
-			{{Form::label('id', 'Id')}}
-			{{Form::text('id', '', ['class' => 'form-control', 'placeholder' => 'Enter Your Employee Id'] )}}
+			{{Form::label('eid', 'eId')}}
+			{{Form::text('eid', '', ['class' => 'form-control', 'placeholder' => 'Enter Your Employee Id'] )}}
 		</div>
 		<div class="form-group">
 			{{Form::label('email', 'E-Mail Address')}}

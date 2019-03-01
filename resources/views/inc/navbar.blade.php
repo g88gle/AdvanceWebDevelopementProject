@@ -11,10 +11,10 @@
     </div>
       <div id="navbar" class="collapse navbar-collapse">
         <ul class="nav navbar-nav">
-          <li> <a href="/">HOME</a></li>
-          <li> <a href="/leave">LEAVE</a></li>
-          <li> <a href="/about">ABOUT</a></li>
-          <li> <a href="/contact">CONTACT</a></li>
+          <li class="{{Request::is('/') ? 'active' : ''}}"> <a href="/">HOME</a></li>
+          <li class="{{Request::is('leave') ? 'active' : ''}}"> <a href="/leave">LEAVE</a></li>
+          <li class="{{Request::is('about') ? 'active' : ''}}"> <a href="/about">ABOUT</a></li>
+          <li class="{{Request::is('contact') ? 'active' : ''}}"> <a href="/contact">CONTACT</a></li>
         </ul>
       </div>
     </div>
